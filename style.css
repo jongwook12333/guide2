@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#top-menu > li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#top {
+    text-align: center;
+}
+
+#title {
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+#top-menu {
+    display: flex;
+    justify-content: space-around;
+    border-bottom:3px solid black;
+}
+
+.목차{
+    border-right: 3px solid black;
+    width: 33.3%;
+}
+
+.화살표 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#본문  > div {
+    margin-top: 15px;
+    border-bottom: 1px solid black;
+}
+
+#본문 {
+}
